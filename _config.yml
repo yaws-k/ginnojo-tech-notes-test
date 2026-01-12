@@ -74,7 +74,6 @@ exclude:
   - README.md
 
 defaults:
-  # _pages
   - scope:
       path: ""
       type: "pages"
@@ -82,5 +81,15 @@ defaults:
       layout: single
       toc: true
       toc_sticky: true
+
+  - scope:
+      path: "12"
+    values:
       sidebar:
-        nav: 'docs'
+        nav: debian12
+
+  - scope:
+      path: "13"
+    values:
+      sidebar:
+        nav: debian13

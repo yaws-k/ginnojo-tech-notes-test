@@ -8,4 +8,5 @@ Everything is set up on the same server for simplicity and ease of management. F
 
 ## Debian versions
 
-The guides are based on Debian 13 (Trixie), the latest stable release. If you need the older Debian 12 (Bookworm) version, please refer to the [Debian 12 (Bookworm) section](/12/).
+The guides are based on [Debian 13 (Trixie)](/13/), the latest stable release.  
+If you need the older Debian 12 (Bookworm) version, please refer to the [Debian 12 (Bookworm) section](/12/).

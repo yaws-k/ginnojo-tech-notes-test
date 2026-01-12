@@ -26,7 +26,7 @@ gallery_grub_install:
 ---
 # Debian 12 "bookworm" installation
 
-Explanation of installation.
+{% include version_warning.html %}
 
 ## Installer configuration
 

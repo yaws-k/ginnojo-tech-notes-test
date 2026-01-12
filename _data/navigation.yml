@@ -1,0 +1,119 @@
+main:
+  - title: "Home"
+    url: https://notes.ginnojo.tech/
+  - title: "Debian 13 Trixie"
+    url: /13/
+  - title: "Debian 12 Bookworm"
+    url: /12/
+
+debian13:
+  - title: "Base system"
+    children:
+    - title: "Installation"
+      url: /13/base-system/installation
+    - title: "ssh and Security"
+      url: /13/base-system/ssh_and_security
+    - title: "Basic configuration and utilities"
+      url: /13/base-system/basic_configuration_and_utilities
+  - title: "Database"
+    children:
+    - title: "MariaDB"
+      url: /13/database/mariadb
+    - title: "SQLite3"
+      url: /13/database/sqlite3
+    - title: "Redis"
+      url: /13/database/redis
+    - title: "MongoDB"
+      url: /13/database/mongodb
+  - title: "Web"
+    children:
+    - title: "Nginx"
+      url: /13/web/nginx
+    - title: "Let's Encrypt"
+      url: /13/web/lets_encrypt
+    - title: "Concrete CMS"
+      url: /13/web/concrete_cms
+    - title: "SSO with Nginx and Vouch Proxy"
+      url: /13/web/sso_nginx_and_vouch_proxy
+  - title: "DNS"
+    children:
+    - title: "Knot Resolver"
+      url: /13/dns/knot_resolver
+  - title: "Mail"
+    children:
+    - title: "Postfix and Dovecot"
+      url: /13/mail/postfix_and_dovecot
+    - title: "Dovecot IMAPd"
+      url: /13/mail/dovecot_imapd
+    - title: "SMTP Auth"
+      url: /13/mail/smtp_auth
+    - title: "SMTPd Restrictioins"
+      url: /13/mail/smtpd_restrictions
+    - title: "ClamAV"
+      url: /13/mail/clamav
+    - title: "Rspamd"
+      url: /13/mail/rspamd
+    - title: "DNS records"
+      url: /13/mail/dns_records
+    - title: "Dovecot Sieve"
+      url: /13/mail/dovecot_sieve
+    - title: "Roundcube"
+      url: /13/mail/roundcube
+    - title: "Mail server migration"
+      url: /13/mail/mail_server_migration
+
+debian12:
+  - title: "Base system"
+    children:
+    - title: "Installation"
+      url: /12/base-system/installation
+    - title: "ssh and Security"
+      url: /12/base-system/ssh_and_security
+    - title: "Basic configuration and utilities"
+      url: /12/base-system/basic_configuration_and_utilities
+  - title: "Database"
+    children:
+    - title: "MariaDB"
+      url: /12/database/mariadb
+    - title: "SQLite3"
+      url: /12/database/sqlite3
+    - title: "Redis"
+      url: /12/database/redis
+    - title: "MongoDB"
+      url: /12/database/mongodb
+  - title: "Web"
+    children:
+    - title: "Nginx"
+      url: /12/web/nginx
+    - title: "Let's Encrypt"
+      url: /12/web/lets_encrypt
+    - title: "Concrete CMS"
+      url: /12/web/concrete_cms
+    - title: "SSO with Nginx and Vouch Proxy"
+      url: /12/web/sso_nginx_and_vouch_proxy
+  - title: "DNS"
+    children:
+    - title: "Knot Resolver"
+      url: /12/dns/knot_resolver
+  - title: "Mail"
+    children:
+    - title: "Postfix and Dovecot"
+      url: /12/mail/postfix_and_dovecot
+    - title: "Dovecot IMAPd"
+      url: /12/mail/dovecot_imapd
+    - title: "SMTP Auth"
+      url: /12/mail/smtp_auth
+    - title: "SMTPd Restrictioins"
+      url: /12/mail/smtpd_restrictions
+    - title: "ClamAV"
+      url: /12/mail/clamav
+    - title: "Rspamd"
+      url: /12/mail/rspamd
+    - title: "DNS records"
+      url: /12/mail/dns_records
+    - title: "Dovecot Sieve"
+      url: /12/mail/dovecot_sieve
+    - title: "Roundcube"
+      url: /12/mail/roundcube
+    - title: "Mail server migration"
+      url: /12/mail/mail_server_migration
