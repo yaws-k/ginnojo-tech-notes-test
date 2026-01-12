@@ -23,7 +23,7 @@ title: Ginnojo Tech Notes
 description: >- # this means to ignore newlines until "baseurl:"
   Set up your own web server from scratch using Debian Linux.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://docs.ginnojo.tech" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://notes.ginnojo.tech" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  yaws-k
 
@@ -70,11 +70,14 @@ titles_from_headings:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+exclude:
+  - README.md
+
 defaults:
   # _pages
   - scope:
-      path: ''
-      type: pages
+      path: ""
+      type: "pages"
     values:
       layout: single
       toc: true
