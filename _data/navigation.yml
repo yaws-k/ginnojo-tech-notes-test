@@ -31,10 +31,6 @@ debian13:
       url: /13/web/nginx
     - title: "Let's Encrypt"
       url: /13/web/lets_encrypt
-    - title: "Concrete CMS"
-      url: /13/web/concrete_cms
-    - title: "SSO with Nginx and Vouch Proxy"
-      url: /13/web/sso_nginx_and_vouch_proxy
   - title: "DNS"
     children:
     - title: "Knot Resolver"
@@ -57,8 +53,6 @@ debian13:
       url: /13/mail/dns_records
     - title: "Dovecot Sieve"
       url: /13/mail/dovecot_sieve
-    - title: "Roundcube"
-      url: /13/mail/roundcube
     - title: "Mail server migration"
       url: /13/mail/mail_server_migration
 
